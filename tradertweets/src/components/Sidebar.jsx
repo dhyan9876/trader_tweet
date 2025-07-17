@@ -3,7 +3,7 @@ import { Link, useLocation } from 'react-router-dom'
 import { Home, User, Clock, Star } from 'lucide-react'
 
 const links = [
-  { name: 'Home', path: '/', icon: Home },
+  { name: 'Dashboard', path: '/dashboard', icon: Home },
   { name: 'Profile', path: '/profile', icon: User },
   { name: 'History', path: '/history', icon: Clock },
   { name: 'Important', path: '/important', icon: Star },

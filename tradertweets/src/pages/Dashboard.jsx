@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 import { supabase } from '../supabaseClient'
 import Upload from '../components/Upload'
 
-const Home = () => {
+const Dashboard = () => {
   const [posts, setPosts] = useState([])
 
   const fetchPosts = async () => {
@@ -35,4 +35,4 @@ const Home = () => {
   )
 }
 
-export default Home
+export default Dashboard 
